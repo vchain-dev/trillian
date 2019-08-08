@@ -154,19 +154,19 @@ func (m *mySQLLogStorage) CheckDatabaseAccessible(ctx context.Context) error {
 }
 
 func (m *mySQLLogStorage) getLeavesByIndexStmt(ctx context.Context, num int) (*sql.Stmt, error) {
-	return m.getStmt(ctx, selectLeavesByIndexSQL, num, "?", "?")
+	return m.getStmt(ctx, selectLeavesByIndexSQL, num, "?", ",?")
 }
 
 func (m *mySQLLogStorage) getLeavesByMerkleHashStmt(ctx context.Context, num int, orderBySequence bool) (*sql.Stmt, error) {
 	if orderBySequence {
-		return m.getStmt(ctx, selectLeavesByMerkleHashOrderedBySequenceSQL, num, "?", "?")
+		return m.getStmt(ctx, selectLeavesByMerkleHashOrderedBySequenceSQL, num, "?", ",?")
 	}
 
-	return m.getStmt(ctx, selectLeavesByMerkleHashSQL, num, "?", "?")
+	return m.getStmt(ctx, selectLeavesByMerkleHashSQL, num, "?", ",?")
 }
 
 func (m *mySQLLogStorage) getLeavesByLeafIdentityHashStmt(ctx context.Context, num int) (*sql.Stmt, error) {
-	return m.getStmt(ctx, selectLeavesByLeafIdentityHashSQL, num, "?", "?")
+	return m.getStmt(ctx, selectLeavesByLeafIdentityHashSQL, num, "?", ",?")
 }
 
 // readOnlyLogTX implements storage.ReadOnlyLogTX

@@ -111,7 +111,7 @@ func (t *logTreeTX) UpdateSequencedLeaves(ctx context.Context, leaves []*trillia
 }
 
 func (m *mySQLLogStorage) getDeleteUnsequencedStmt(ctx context.Context, num int) (*sql.Stmt, error) {
-	return m.getStmt(ctx, deleteUnsequencedSQL, num, "?", "?")
+	return m.getStmt(ctx, deleteUnsequencedSQL, num, "?", ",?")
 }
 
 // removeSequencedLeaves removes the passed in leaves slice (which may be

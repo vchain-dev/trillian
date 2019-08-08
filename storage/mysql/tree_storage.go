@@ -44,7 +44,7 @@ const (
  FROM (
  	SELECT n.SubtreeId, max(n.SubtreeRevision) AS MaxRevision
 	FROM Subtree n
-	WHERE n.SubtreeId = ` + placeholderSQL + ` AND
+	WHERE (n.SubtreeId = ` + placeholderSQL + `) AND
 	 n.TreeId = ? AND n.SubtreeRevision <= ?
 	GROUP BY n.TreeId, n.SubtreeId
  ) AS x
@@ -99,7 +99,7 @@ func expandPlaceholderSQL(sql string, num int, first, rest string) string {
 		panic(fmt.Errorf("trying to expand SQL placeholder with <= 0 parameters: %s", sql))
 	}
 
-	parameters := first + strings.Repeat(","+rest, num-1)
+	parameters := first + strings.Repeat(rest, num-1)
 
 	return strings.Replace(sql, placeholderSQL, parameters, 1)
 }
@@ -139,7 +139,7 @@ func (m *mySQLTreeStorage) getSubtreeStmt(ctx context.Context, num int) (*sql.St
 }
 
 func (m *mySQLTreeStorage) setSubtreeStmt(ctx context.Context, num int) (*sql.Stmt, error) {
-	return m.getStmt(ctx, insertSubtreeMultiSQL, num, "VALUES(?, ?, ?, ?)", "(?, ?, ?, ?)")
+	return m.getStmt(ctx, insertSubtreeMultiSQL, num, "VALUES(?, ?, ?, ?)", ",(?, ?, ?, ?)")
 }
 
 func (m *mySQLTreeStorage) beginTreeTx(ctx context.Context, tree *trillian.Tree, hashSizeBytes int, subtreeCache cache.SubtreeCache) (treeTX, error) {

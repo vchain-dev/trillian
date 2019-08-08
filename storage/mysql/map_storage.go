@@ -213,7 +213,7 @@ func (m *mapTreeTX) Get(ctx context.Context, revision int64, indexes [][]byte) (
 	if len(indexes) == 0 {
 		return []trillian.MapLeaf{}, nil
 	}
-	stmt, err := m.ms.getStmt(ctx, selectMapLeafSQL, len(indexes), "?", "?")
+	stmt, err := m.ms.getStmt(ctx, selectMapLeafSQL, len(indexes), "?", ",?")
 	if err != nil {
 		return nil, err
 	}
