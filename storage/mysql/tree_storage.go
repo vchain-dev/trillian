@@ -44,7 +44,7 @@ const (
  FROM (
  	SELECT n.SubtreeId, max(n.SubtreeRevision) AS MaxRevision
 	FROM Subtree n
-	WHERE n.SubtreeId IN (` + placeholderSQL + `) AND
+	WHERE n.SubtreeId = ` + placeholderSQL + ` AND
 	 n.TreeId = ? AND n.SubtreeRevision <= ?
 	GROUP BY n.TreeId, n.SubtreeId
  ) AS x
@@ -135,7 +135,7 @@ func (m *mySQLTreeStorage) getStmt(ctx context.Context, statement string, num in
 }
 
 func (m *mySQLTreeStorage) getSubtreeStmt(ctx context.Context, num int) (*sql.Stmt, error) {
-	return m.getStmt(ctx, selectSubtreeSQL, num, "?", "?")
+	return m.getStmt(ctx, selectSubtreeSQL, num, "?", " OR n.SubtreeId = ? ")
 }
 
 func (m *mySQLTreeStorage) setSubtreeStmt(ctx context.Context, num int) (*sql.Stmt, error) {
