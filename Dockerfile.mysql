@@ -1,0 +1,6 @@
+FROM mysql:5.7
+
+RUN apt-get update && apt-get install -y --no-install-recommends wget ca-certificates
+WORKDIR /docker-entrypoint-initdb.d
+
+RUN chmod -R 775 .
