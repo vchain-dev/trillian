@@ -39,19 +39,21 @@ const (
 		 VALUES(?,?,?,?,?,?)`
 	selectTreeRevisionAtSizeOrLargerSQL = "SELECT TreeRevision,TreeSize FROM TreeHead WHERE TreeId=? AND TreeSize>=? ORDER BY TreeRevision LIMIT 1"
 
-	selectSubtreeSQL = `
- SELECT x.SubtreeId, x.MaxRevision, Subtree.Nodes
- FROM (
- 	SELECT n.SubtreeId, max(n.SubtreeRevision) AS MaxRevision
-	FROM Subtree n
-	WHERE (n.SubtreeId = ` + placeholderSQL + `) AND
-	 n.TreeId = ? AND n.SubtreeRevision <= ?
-	GROUP BY n.TreeId, n.SubtreeId
- ) AS x
- INNER JOIN Subtree 
- ON Subtree.SubtreeId = x.SubtreeId 
- AND Subtree.SubtreeRevision = x.MaxRevision 
- AND Subtree.TreeId = ?`
+	selectSubtreeSQL = `` + placeholderSQL + ``
+
+
+ //`SELECT x.SubtreeId, x.MaxRevision, Subtree.Nodes
+ //FROM (
+ //	SELECT n.SubtreeId, max(n.SubtreeRevision) AS MaxRevision
+	//FROM Subtree n
+	//WHERE (n.SubtreeId = ` +  + `) AND
+	// n.TreeId = ? AND n.SubtreeRevision <= ?
+	//GROUP BY n.TreeId, n.SubtreeId
+ //) AS x
+ //INNER JOIN Subtree
+ //ON Subtree.SubtreeId = x.SubtreeId
+ //AND Subtree.SubtreeRevision = x.MaxRevision
+ //AND Subtree.TreeId = ?`
 	placeholderSQL = "<placeholder>"
 )
 
@@ -135,7 +137,23 @@ func (m *mySQLTreeStorage) getStmt(ctx context.Context, statement string, num in
 }
 
 func (m *mySQLTreeStorage) getSubtreeStmt(ctx context.Context, num int) (*sql.Stmt, error) {
-	return m.getStmt(ctx, selectSubtreeSQL, num, "?", " OR n.SubtreeId = ? ")
+	first := `(
+		SELECT
+			x.SubtreeId,
+			x.SubtreeRevision as MaxRevision,
+			x.Nodes
+		FROM Subtree x
+		WHERE x.SubtreeId = ?
+			AND x.TreeId = ?
+			AND x.SubtreeRevision <= ?
+		ORDER BY x.SubtreeRevision DESC
+		LIMIT 1
+	)
+	`
+
+	other := `UNION ALL ` + first
+
+	return m.getStmt(ctx, selectSubtreeSQL, num, first, other)
 }
 
 func (m *mySQLTreeStorage) setSubtreeStmt(ctx context.Context, num int) (*sql.Stmt, error) {
@@ -201,7 +219,7 @@ func (t *treeTX) getSubtrees(ctx context.Context, treeRevision int64, nodeIDs []
 	stx := t.tx.StmtContext(ctx, tmpl)
 	defer stx.Close()
 
-	args := make([]interface{}, 0, len(nodeIDs)+3)
+	args := make([]interface{}, 0, len(nodeIDs)*3)
 
 	// populate args with nodeIDs
 	for _, nodeID := range nodeIDs {
@@ -213,11 +231,9 @@ func (t *treeTX) getSubtrees(ctx context.Context, treeRevision int64, nodeIDs []
 		glog.V(4).Infof("  nodeID: %x", nodeIDBytes)
 
 		args = append(args, interface{}(nodeIDBytes))
+		args = append(args, interface{}(t.treeID))
+		args = append(args, interface{}(treeRevision))
 	}
-
-	args = append(args, interface{}(t.treeID))
-	args = append(args, interface{}(treeRevision))
-	args = append(args, interface{}(t.treeID))
 
 	rows, err := stx.QueryContext(ctx, args...)
 	if err != nil {

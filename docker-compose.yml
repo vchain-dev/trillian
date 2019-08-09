@@ -1,9 +1,9 @@
 version: '3'
 services:
+
   trillian-mysql:
-    build:
-      context: ./
-      dockerfile: Dockerfile.mysql
+    network_mode: host
+    image: mysql:5.7
     restart: always
     ports:
       - "3306:3306"
@@ -11,6 +11,7 @@ services:
       MYSQL_ALLOW_EMPTY_PASSWORD: "yes"
 
   trillian-map:
+    network_mode: host
     depends_on:
       - trillian-mysql
     build:
@@ -18,12 +19,13 @@ services:
       dockerfile: Dockerfile.trillian
     volumes:
       - ./:/go/src/github.com/google/trillian
-    links:
-      - trillian-mysql
     ports:
       - "8090:8090" # gRPC
       - "8091:8091" # HTTP & Metrics
+    environment:
+      MYSQL_HOST: 0.0.0.0
     command: go test ./...
+
 #        && ./trillian_map_server
 #          -
 #          - --rpc_endpoint=0.0.0.0:8090
