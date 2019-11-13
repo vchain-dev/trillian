@@ -18,10 +18,10 @@ import (
 	"crypto"
 	"testing"
 
-	. "github.com/google/trillian/crypto/keys/pem"
-	ktestonly "github.com/google/trillian/crypto/keys/testonly"
-	"github.com/google/trillian/crypto/keyspb"
-	"github.com/google/trillian/testonly"
+	. "github.com/vchain-dev/trillian/crypto/keys/pem"
+	ktestonly "github.com/vchain-dev/trillian/crypto/keys/testonly"
+	"github.com/vchain-dev/trillian/crypto/keyspb"
+	"github.com/vchain-dev/trillian/testonly"
 )
 
 const (

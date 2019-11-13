@@ -19,7 +19,7 @@ import (
 
 	_ "github.com/golang/glog"
 	"github.com/golang/protobuf/proto"
-	"github.com/google/trillian"
+	"github.com/vchain-dev/trillian"
 )
 
 func TestProtoEquals(t *testing.T) {

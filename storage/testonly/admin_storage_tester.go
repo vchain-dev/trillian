@@ -27,24 +27,24 @@ import (
 	"github.com/golang/protobuf/ptypes"
 	"github.com/golang/protobuf/ptypes/any"
 	"github.com/golang/protobuf/ptypes/empty"
-	"github.com/google/trillian"
-	"github.com/google/trillian/crypto/keys"
-	"github.com/google/trillian/crypto/keys/pem"
-	"github.com/google/trillian/crypto/keyspb"
-	"github.com/google/trillian/crypto/sigpb"
-	"github.com/google/trillian/merkle/maphasher"
-	"github.com/google/trillian/storage"
-	"github.com/google/trillian/testonly"
+	"github.com/vchain-dev/trillian"
+	"github.com/vchain-dev/trillian/crypto/keys"
+	"github.com/vchain-dev/trillian/crypto/keys/pem"
+	"github.com/vchain-dev/trillian/crypto/keyspb"
+	"github.com/vchain-dev/trillian/crypto/sigpb"
+	"github.com/vchain-dev/trillian/merkle/maphasher"
+	"github.com/vchain-dev/trillian/storage"
+	"github.com/vchain-dev/trillian/testonly"
 	"github.com/kylelemons/godebug/pretty"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 
-	ktestonly "github.com/google/trillian/crypto/keys/testonly"
-	spb "github.com/google/trillian/crypto/sigpb"
+	ktestonly "github.com/vchain-dev/trillian/crypto/keys/testonly"
+	spb "github.com/vchain-dev/trillian/crypto/sigpb"
 
-	_ "github.com/google/trillian/crypto/keys/der/proto" // PrivateKey proto handler
-	_ "github.com/google/trillian/crypto/keys/pem/proto" // PEMKeyFile proto handler
-	_ "github.com/google/trillian/merkle/maphasher"      // TEST_MAP_HASHER
+	_ "github.com/vchain-dev/trillian/crypto/keys/der/proto" // PrivateKey proto handler
+	_ "github.com/vchain-dev/trillian/crypto/keys/pem/proto" // PEMKeyFile proto handler
+	_ "github.com/vchain-dev/trillian/merkle/maphasher"      // TEST_MAP_HASHER
 )
 
 const (

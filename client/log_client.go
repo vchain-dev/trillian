@@ -23,9 +23,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/google/trillian"
-	"github.com/google/trillian/client/backoff"
-	"github.com/google/trillian/types"
+	"github.com/vchain-dev/trillian"
+	"github.com/vchain-dev/trillian/client/backoff"
+	"github.com/vchain-dev/trillian/types"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 )

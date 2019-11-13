@@ -22,7 +22,7 @@ import (
 	"strconv"
 	"testing"
 
-	"github.com/google/trillian/testonly"
+	"github.com/vchain-dev/trillian/testonly"
 )
 
 var h2b = testonly.MustHexDecode

@@ -22,8 +22,8 @@ import (
 	"io/ioutil"
 
 	"github.com/google/certificate-transparency-go/x509"
-	"github.com/google/trillian/crypto/keys/der"
-	"github.com/google/trillian/crypto/keyspb"
+	"github.com/vchain-dev/trillian/crypto/keys/der"
+	"github.com/vchain-dev/trillian/crypto/keyspb"
 )
 
 // FromProto takes a PEMKeyFile protobuf message and loads the private key it specifies.

@@ -23,9 +23,9 @@ import (
 	"fmt"
 
 	"github.com/golang/glog"
-	"github.com/google/trillian"
-	"github.com/google/trillian/merkle/hashers"
-	_ "github.com/google/trillian/merkle/rfc6962" // Load hashers
+	"github.com/vchain-dev/trillian"
+	"github.com/vchain-dev/trillian/merkle/hashers"
+	_ "github.com/vchain-dev/trillian/merkle/rfc6962" // Load hashers
 )
 
 var (

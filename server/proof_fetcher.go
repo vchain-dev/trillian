@@ -18,10 +18,10 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/google/trillian"
-	"github.com/google/trillian/merkle"
-	"github.com/google/trillian/merkle/hashers"
-	"github.com/google/trillian/storage"
+	"github.com/vchain-dev/trillian"
+	"github.com/vchain-dev/trillian/merkle"
+	"github.com/vchain-dev/trillian/merkle/hashers"
+	"github.com/vchain-dev/trillian/storage"
 )
 
 // fetchNodesAndBuildProof is used by both inclusion and consistency proofs. It fetches the nodes

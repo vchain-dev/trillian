@@ -22,8 +22,8 @@ import (
 	"time"
 
 	"github.com/golang/glog"
-	"github.com/google/trillian/docs/storage/commit_log/simelection"
-	"github.com/google/trillian/docs/storage/commit_log/simkafka"
+	"github.com/vchain-dev/trillian/docs/storage/commit_log/simelection"
+	"github.com/vchain-dev/trillian/docs/storage/commit_log/simkafka"
 )
 
 var batchSize = flag.Int("batch_size", 5, "Maximum leaves to sign in one run")

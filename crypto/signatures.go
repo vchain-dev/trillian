@@ -19,7 +19,7 @@ import (
 	"crypto/ecdsa"
 	"crypto/rsa"
 
-	"github.com/google/trillian/crypto/sigpb"
+	"github.com/vchain-dev/trillian/crypto/sigpb"
 	"golang.org/x/crypto/ed25519"
 )
 

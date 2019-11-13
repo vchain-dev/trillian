@@ -17,7 +17,7 @@ package server
 import (
 	"testing"
 
-	"github.com/google/trillian/quota"
+	"github.com/vchain-dev/trillian/quota"
 )
 
 func TestQuotaProviderRegistration(t *testing.T) {

@@ -20,8 +20,8 @@ import (
 	"time"
 
 	"github.com/golang/glog"
-	"github.com/google/trillian"
-	"github.com/google/trillian/client/backoff"
+	"github.com/vchain-dev/trillian"
+	"github.com/vchain-dev/trillian/client/backoff"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 )

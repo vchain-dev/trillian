@@ -25,28 +25,28 @@ import (
 	"time"
 
 	"github.com/golang/glog"
-	"github.com/google/trillian/cmd"
-	"github.com/google/trillian/extension"
-	"github.com/google/trillian/log"
-	"github.com/google/trillian/monitoring/prometheus"
-	"github.com/google/trillian/server"
-	"github.com/google/trillian/util"
-	"github.com/google/trillian/util/clock"
-	"github.com/google/trillian/util/election"
-	"github.com/google/trillian/util/election2"
-	etcdelect "github.com/google/trillian/util/election2/etcd"
-	"github.com/google/trillian/util/etcd"
+	"github.com/vchain-dev/trillian/cmd"
+	"github.com/vchain-dev/trillian/extension"
+	"github.com/vchain-dev/trillian/log"
+	"github.com/vchain-dev/trillian/monitoring/prometheus"
+	"github.com/vchain-dev/trillian/server"
+	"github.com/vchain-dev/trillian/util"
+	"github.com/vchain-dev/trillian/util/clock"
+	"github.com/vchain-dev/trillian/util/election"
+	"github.com/vchain-dev/trillian/util/election2"
+	etcdelect "github.com/vchain-dev/trillian/util/election2/etcd"
+	"github.com/vchain-dev/trillian/util/etcd"
 	"github.com/grpc-ecosystem/grpc-gateway/runtime"
 	"google.golang.org/grpc"
 
-	tpb "github.com/google/trillian"
+	tpb "github.com/vchain-dev/trillian"
 	// Register key ProtoHandlers
-	_ "github.com/google/trillian/crypto/keys/der/proto"
-	_ "github.com/google/trillian/crypto/keys/pem/proto"
-	_ "github.com/google/trillian/crypto/keys/pkcs11/proto"
+	_ "github.com/vchain-dev/trillian/crypto/keys/der/proto"
+	_ "github.com/vchain-dev/trillian/crypto/keys/pem/proto"
+	_ "github.com/vchain-dev/trillian/crypto/keys/pkcs11/proto"
 
 	// Load hashers
-	_ "github.com/google/trillian/merkle/rfc6962"
+	_ "github.com/vchain-dev/trillian/merkle/rfc6962"
 )
 
 var (

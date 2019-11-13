@@ -21,8 +21,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/google/trillian/monitoring"
-	"github.com/google/trillian/util/clock"
+	"github.com/vchain-dev/trillian/monitoring"
+	"github.com/vchain-dev/trillian/util/clock"
 	"google.golang.org/grpc"
 )
 

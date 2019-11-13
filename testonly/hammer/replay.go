@@ -27,7 +27,7 @@ import (
 	"github.com/golang/protobuf/proto"
 	"github.com/golang/protobuf/ptypes"
 	"github.com/golang/protobuf/ptypes/any"
-	"github.com/google/trillian"
+	"github.com/vchain-dev/trillian"
 	"google.golang.org/grpc"
 )
 

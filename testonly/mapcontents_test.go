@@ -21,7 +21,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/google/trillian/merkle/maphasher"
+	"github.com/vchain-dev/trillian/merkle/maphasher"
 )
 
 func TestTruncateToNBits(t *testing.T) {

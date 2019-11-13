@@ -20,8 +20,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/google/trillian/util/clock"
-	"github.com/google/trillian/util/election2"
+	"github.com/vchain-dev/trillian/util/clock"
+	"github.com/vchain-dev/trillian/util/election2"
 )
 
 // Tests is the full list of available Election tests.

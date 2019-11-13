@@ -24,9 +24,9 @@ import (
 	"github.com/golang/mock/gomock"
 	"github.com/golang/protobuf/proto"
 	"github.com/golang/protobuf/ptypes"
-	"github.com/google/trillian"
-	"github.com/google/trillian/storage"
-	"github.com/google/trillian/storage/testonly"
+	"github.com/vchain-dev/trillian"
+	"github.com/vchain-dev/trillian/storage"
+	"github.com/vchain-dev/trillian/storage/testonly"
 )
 
 func TestDeletedTreeGC_Run(t *testing.T) {

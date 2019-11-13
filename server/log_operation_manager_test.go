@@ -25,13 +25,13 @@ import (
 	"time"
 
 	"github.com/golang/mock/gomock"
-	"github.com/google/trillian"
-	"github.com/google/trillian/extension"
-	"github.com/google/trillian/monitoring/testonly"
-	"github.com/google/trillian/storage"
-	"github.com/google/trillian/util/clock"
-	"github.com/google/trillian/util/election2"
-	eto "github.com/google/trillian/util/election2/testonly"
+	"github.com/vchain-dev/trillian"
+	"github.com/vchain-dev/trillian/extension"
+	"github.com/vchain-dev/trillian/monitoring/testonly"
+	"github.com/vchain-dev/trillian/storage"
+	"github.com/vchain-dev/trillian/util/clock"
+	"github.com/vchain-dev/trillian/util/election2"
+	eto "github.com/vchain-dev/trillian/util/election2/testonly"
 )
 
 func defaultLogOperationInfo(registry extension.Registry) LogOperationInfo {

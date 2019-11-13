@@ -22,7 +22,7 @@ import (
 	"testing"
 
 	"github.com/golang/mock/gomock"
-	"github.com/google/trillian"
+	"github.com/vchain-dev/trillian"
 )
 
 // TestGetTree is really testing param / result / error propagation is correct

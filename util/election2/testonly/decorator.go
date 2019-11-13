@@ -18,7 +18,7 @@ import (
 	"context"
 	"sync"
 
-	"github.com/google/trillian/util/election2"
+	"github.com/vchain-dev/trillian/util/election2"
 )
 
 // Errs contains errors to be returned by each of Election methods.

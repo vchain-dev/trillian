@@ -17,10 +17,10 @@ package cache
 import (
 	"fmt"
 
-	"github.com/google/trillian/merkle/compact"
-	"github.com/google/trillian/merkle/hashers"
-	"github.com/google/trillian/storage"
-	"github.com/google/trillian/storage/storagepb"
+	"github.com/vchain-dev/trillian/merkle/compact"
+	"github.com/vchain-dev/trillian/merkle/hashers"
+	"github.com/vchain-dev/trillian/storage"
+	"github.com/vchain-dev/trillian/storage/storagepb"
 )
 
 // NewLogSubtreeCache creates and returns a SubtreeCache appropriate for use with a log

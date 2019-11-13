@@ -23,8 +23,8 @@ import (
 	"sync"
 
 	"github.com/golang/glog"
-	"github.com/google/trillian/merkle/hashers"
-	"github.com/google/trillian/storage"
+	"github.com/vchain-dev/trillian/merkle/hashers"
+	"github.com/vchain-dev/trillian/storage"
 	"go.opencensus.io/trace"
 )
 
@@ -515,5 +515,5 @@ type HashKeyValue struct {
 }
 
 func spanFor(ctx context.Context, name string) (context.Context, *trace.Span) {
-	return trace.StartSpan(ctx, fmt.Sprintf("github.com/google/trillian/merkle/sparse_merkle_tree.%s", name))
+	return trace.StartSpan(ctx, fmt.Sprintf("github.com/vchain-dev/trillian/merkle/sparse_merkle_tree.%s", name))
 }

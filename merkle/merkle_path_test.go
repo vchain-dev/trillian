@@ -18,7 +18,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/google/trillian/storage"
+	"github.com/vchain-dev/trillian/storage"
 )
 
 type auditPathTestData struct {

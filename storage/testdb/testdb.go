@@ -27,7 +27,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/google/trillian/testonly"
+	"github.com/vchain-dev/trillian/testonly"
 
 	_ "github.com/go-sql-driver/mysql" // mysql driver
 )

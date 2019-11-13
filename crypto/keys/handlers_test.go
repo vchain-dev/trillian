@@ -22,9 +22,9 @@ import (
 
 	"github.com/golang/protobuf/proto"
 	"github.com/golang/protobuf/ptypes/empty"
-	. "github.com/google/trillian/crypto/keys"
-	"github.com/google/trillian/crypto/keys/pem"
-	"github.com/google/trillian/testonly"
+	. "github.com/vchain-dev/trillian/crypto/keys"
+	"github.com/vchain-dev/trillian/crypto/keys/pem"
+	"github.com/vchain-dev/trillian/testonly"
 )
 
 func fakeHandler(signer crypto.Signer, err error) ProtoHandler {

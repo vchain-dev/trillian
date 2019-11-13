@@ -24,16 +24,16 @@ import (
 	"testing"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/google/trillian"
-	"github.com/google/trillian/examples/ct/ctmapper/ctmapperpb"
-	"github.com/google/trillian/storage"
-	"github.com/google/trillian/storage/testdb"
-	"github.com/google/trillian/testonly"
-	"github.com/google/trillian/types"
+	"github.com/vchain-dev/trillian"
+	"github.com/vchain-dev/trillian/examples/ct/ctmapper/ctmapperpb"
+	"github.com/vchain-dev/trillian/storage"
+	"github.com/vchain-dev/trillian/storage/testdb"
+	"github.com/vchain-dev/trillian/testonly"
+	"github.com/vchain-dev/trillian/types"
 	"github.com/kylelemons/godebug/pretty"
 
-	tcrypto "github.com/google/trillian/crypto"
-	storageto "github.com/google/trillian/storage/testonly"
+	tcrypto "github.com/vchain-dev/trillian/crypto"
+	storageto "github.com/vchain-dev/trillian/storage/testonly"
 )
 
 var fixedSigner = tcrypto.NewSigner(0, testonly.NewSignerWithFixedSig(nil, []byte("notempty")), crypto.SHA256)

@@ -19,7 +19,7 @@ import (
 
 	"github.com/google/certificate-transparency-go/x509"
 	"github.com/google/certificate-transparency-go/x509/pkix"
-	"github.com/google/trillian/examples/ct/ctmapper/ctmapperpb"
+	"github.com/vchain-dev/trillian/examples/ct/ctmapper/ctmapperpb"
 	"github.com/kylelemons/godebug/pretty"
 )
 

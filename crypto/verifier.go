@@ -23,8 +23,8 @@ import (
 	"math/big"
 
 	"github.com/google/certificate-transparency-go/asn1"
-	"github.com/google/trillian"
-	"github.com/google/trillian/types"
+	"github.com/vchain-dev/trillian"
+	"github.com/vchain-dev/trillian/types"
 	"golang.org/x/crypto/ed25519"
 )
 

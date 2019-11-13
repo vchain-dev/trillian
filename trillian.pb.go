@@ -9,8 +9,8 @@ import (
 	any "github.com/golang/protobuf/ptypes/any"
 	duration "github.com/golang/protobuf/ptypes/duration"
 	timestamp "github.com/golang/protobuf/ptypes/timestamp"
-	keyspb "github.com/google/trillian/crypto/keyspb"
-	sigpb "github.com/google/trillian/crypto/sigpb"
+	keyspb "github.com/vchain-dev/trillian/crypto/keyspb"
+	sigpb "github.com/vchain-dev/trillian/crypto/sigpb"
 	math "math"
 )
 

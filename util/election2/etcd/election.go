@@ -23,7 +23,7 @@ import (
 	"github.com/coreos/etcd/clientv3"
 	"github.com/coreos/etcd/clientv3/concurrency"
 	"github.com/golang/glog"
-	"github.com/google/trillian/util/election2"
+	"github.com/vchain-dev/trillian/util/election2"
 )
 
 const resignID = "<resign>"

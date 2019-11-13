@@ -17,7 +17,7 @@ package prometheus
 import (
 	"testing"
 
-	"github.com/google/trillian/monitoring/testonly"
+	"github.com/vchain-dev/trillian/monitoring/testonly"
 )
 
 func TestCounter(t *testing.T) {

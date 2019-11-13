@@ -21,10 +21,10 @@ import (
 	"os"
 	"testing"
 
-	"github.com/google/trillian"
-	"github.com/google/trillian/testonly/flagsaver"
-	"github.com/google/trillian/testonly/integration"
-	"github.com/google/trillian/testonly/setup"
+	"github.com/vchain-dev/trillian"
+	"github.com/vchain-dev/trillian/testonly/flagsaver"
+	"github.com/vchain-dev/trillian/testonly/integration"
+	"github.com/vchain-dev/trillian/testonly/setup"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials"
 )

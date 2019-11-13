@@ -17,8 +17,8 @@ package monitoring_test
 import (
 	"testing"
 
-	"github.com/google/trillian/monitoring"
-	"github.com/google/trillian/monitoring/testonly"
+	"github.com/vchain-dev/trillian/monitoring"
+	"github.com/vchain-dev/trillian/monitoring/testonly"
 )
 
 func TestCounter(t *testing.T) {

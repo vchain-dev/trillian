@@ -28,9 +28,9 @@ import (
 	"testing"
 
 	"github.com/golang/mock/gomock"
-	"github.com/google/trillian/merkle/maphasher"
-	"github.com/google/trillian/storage"
-	"github.com/google/trillian/testonly"
+	"github.com/vchain-dev/trillian/merkle/maphasher"
+	"github.com/vchain-dev/trillian/storage"
+	"github.com/vchain-dev/trillian/testonly"
 )
 
 var (

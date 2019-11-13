@@ -24,8 +24,8 @@ import (
 	"sync"
 
 	"github.com/golang/glog"
-	"github.com/google/trillian"
-	"github.com/google/trillian/merkle/hashers"
+	"github.com/vchain-dev/trillian"
+	"github.com/vchain-dev/trillian/merkle/hashers"
 )
 
 // ErrInvariant indicates that an invariant check failed, with details in msg.

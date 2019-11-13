@@ -17,10 +17,10 @@ package integration
 import (
 	"context"
 
-	"github.com/google/trillian/extension"
-	"github.com/google/trillian/quota/mysqlqm"
-	"github.com/google/trillian/storage/mysql"
-	"github.com/google/trillian/storage/testdb"
+	"github.com/vchain-dev/trillian/extension"
+	"github.com/vchain-dev/trillian/quota/mysqlqm"
+	"github.com/vchain-dev/trillian/storage/mysql"
+	"github.com/vchain-dev/trillian/storage/testdb"
 )
 
 // NewRegistryForTests returns an extension.Registry for integration tests.

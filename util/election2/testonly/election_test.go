@@ -17,7 +17,7 @@ package testonly_test
 import (
 	"testing"
 
-	"github.com/google/trillian/util/election2/testonly"
+	"github.com/vchain-dev/trillian/util/election2/testonly"
 )
 
 func TestElection(t *testing.T) {

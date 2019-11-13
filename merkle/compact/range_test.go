@@ -25,7 +25,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/google/trillian/merkle/rfc6962"
+	"github.com/vchain-dev/trillian/merkle/rfc6962"
 )
 
 var (

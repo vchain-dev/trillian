@@ -21,10 +21,10 @@ import (
 
 	"github.com/golang/glog"
 	"github.com/golang/protobuf/ptypes"
-	"github.com/google/trillian"
-	"github.com/google/trillian/client"
-	"github.com/google/trillian/crypto/keyspb"
-	"github.com/google/trillian/crypto/sigpb"
+	"github.com/vchain-dev/trillian"
+	"github.com/vchain-dev/trillian/client"
+	"github.com/vchain-dev/trillian/crypto/keyspb"
+	"github.com/vchain-dev/trillian/crypto/sigpb"
 )
 
 func destroyMap(ctx context.Context, adminClient trillian.TrillianAdminClient, mapID int64) error {

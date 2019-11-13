@@ -21,7 +21,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/google/trillian/crypto/keyspb"
+	"github.com/vchain-dev/trillian/crypto/keyspb"
 )
 
 func TestRunPkcs11(t *testing.T) {

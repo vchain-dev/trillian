@@ -26,16 +26,16 @@ import (
 	"testing"
 
 	"github.com/golang/glog"
-	"github.com/google/trillian"
-	"github.com/google/trillian/merkle/compact"
-	"github.com/google/trillian/merkle/rfc6962"
-	"github.com/google/trillian/storage"
-	"github.com/google/trillian/storage/testdb"
-	"github.com/google/trillian/testonly"
-	"github.com/google/trillian/types"
+	"github.com/vchain-dev/trillian"
+	"github.com/vchain-dev/trillian/merkle/compact"
+	"github.com/vchain-dev/trillian/merkle/rfc6962"
+	"github.com/vchain-dev/trillian/storage"
+	"github.com/vchain-dev/trillian/storage/testdb"
+	"github.com/vchain-dev/trillian/testonly"
+	"github.com/vchain-dev/trillian/types"
 
-	tcrypto "github.com/google/trillian/crypto"
-	storageto "github.com/google/trillian/storage/testonly"
+	tcrypto "github.com/vchain-dev/trillian/crypto"
+	storageto "github.com/vchain-dev/trillian/storage/testonly"
 )
 
 func TestNodeRoundTrip(t *testing.T) {

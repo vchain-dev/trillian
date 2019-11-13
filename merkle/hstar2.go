@@ -21,8 +21,8 @@ import (
 	"sort"
 
 	"github.com/golang/glog"
-	"github.com/google/trillian/merkle/hashers"
-	"github.com/google/trillian/storage"
+	"github.com/vchain-dev/trillian/merkle/hashers"
+	"github.com/vchain-dev/trillian/storage"
 )
 
 var (

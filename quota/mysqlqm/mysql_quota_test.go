@@ -22,19 +22,19 @@ import (
 	"testing"
 	"time"
 
-	"github.com/google/trillian"
-	"github.com/google/trillian/quota"
-	"github.com/google/trillian/quota/mysqlqm"
-	"github.com/google/trillian/storage"
-	"github.com/google/trillian/storage/mysql"
-	"github.com/google/trillian/storage/testdb"
-	"github.com/google/trillian/testonly"
-	"github.com/google/trillian/trees"
-	"github.com/google/trillian/types"
+	"github.com/vchain-dev/trillian"
+	"github.com/vchain-dev/trillian/quota"
+	"github.com/vchain-dev/trillian/quota/mysqlqm"
+	"github.com/vchain-dev/trillian/storage"
+	"github.com/vchain-dev/trillian/storage/mysql"
+	"github.com/vchain-dev/trillian/storage/testdb"
+	"github.com/vchain-dev/trillian/testonly"
+	"github.com/vchain-dev/trillian/trees"
+	"github.com/vchain-dev/trillian/types"
 	"github.com/kylelemons/godebug/pretty"
 
-	tcrypto "github.com/google/trillian/crypto"
-	stestonly "github.com/google/trillian/storage/testonly"
+	tcrypto "github.com/vchain-dev/trillian/crypto"
+	stestonly "github.com/vchain-dev/trillian/storage/testonly"
 )
 
 func TestQuotaManager_GetTokens(t *testing.T) {

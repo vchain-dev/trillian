@@ -26,8 +26,8 @@ import (
 	"fmt"
 
 	"github.com/golang/glog"
-	"github.com/google/trillian"
-	"github.com/google/trillian/client/rpcflags"
+	"github.com/vchain-dev/trillian"
+	"github.com/vchain-dev/trillian/client/rpcflags"
 	"google.golang.org/grpc"
 )
 

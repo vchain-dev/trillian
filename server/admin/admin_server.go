@@ -21,17 +21,17 @@ import (
 
 	"github.com/golang/glog"
 	"github.com/golang/protobuf/ptypes"
-	"github.com/google/trillian"
-	"github.com/google/trillian/crypto/keys/der"
-	"github.com/google/trillian/extension"
-	"github.com/google/trillian/merkle/hashers"
-	"github.com/google/trillian/storage"
-	"github.com/google/trillian/trees"
+	"github.com/vchain-dev/trillian"
+	"github.com/vchain-dev/trillian/crypto/keys/der"
+	"github.com/vchain-dev/trillian/extension"
+	"github.com/vchain-dev/trillian/merkle/hashers"
+	"github.com/vchain-dev/trillian/storage"
+	"github.com/vchain-dev/trillian/trees"
 	"google.golang.org/genproto/protobuf/field_mask"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 
-	_ "github.com/google/trillian/merkle/rfc6962" // Make hashers available
+	_ "github.com/vchain-dev/trillian/merkle/rfc6962" // Make hashers available
 )
 
 // Server is an implementation of trillian.TrillianAdminServer.

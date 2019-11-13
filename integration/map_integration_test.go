@@ -19,14 +19,14 @@ import (
 	"flag"
 	"testing"
 
-	"github.com/google/trillian"
-	"github.com/google/trillian/client"
-	"github.com/google/trillian/integration"
-	"github.com/google/trillian/storage/testdb"
-	tintegration "github.com/google/trillian/testonly/integration"
+	"github.com/vchain-dev/trillian"
+	"github.com/vchain-dev/trillian/client"
+	"github.com/vchain-dev/trillian/integration"
+	"github.com/vchain-dev/trillian/storage/testdb"
+	tintegration "github.com/vchain-dev/trillian/testonly/integration"
 
-	_ "github.com/google/trillian/crypto/keys/der/proto" // Register PrivateKey ProtoHandler
-	stestonly "github.com/google/trillian/storage/testonly"
+	_ "github.com/vchain-dev/trillian/crypto/keys/der/proto" // Register PrivateKey ProtoHandler
+	stestonly "github.com/vchain-dev/trillian/storage/testonly"
 )
 
 var singleTX = flag.Bool("single_transaction", false, "Experimental: whether to update the map in a single transaction")

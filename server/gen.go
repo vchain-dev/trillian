@@ -15,4 +15,4 @@
 // Package server holds code for core Trillian servers.
 package server
 
-//go:generate mockgen -self_package github.com/google/trillian/server -package server -destination mock_log_operation.go github.com/google/trillian/server LogOperation
+//go:generate mockgen -self_package github.com/vchain-dev/trillian/server -package server -destination mock_log_operation.go github.com/vchain-dev/trillian/server LogOperation

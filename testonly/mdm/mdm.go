@@ -25,10 +25,10 @@ import (
 	"time"
 
 	"github.com/golang/glog"
-	"github.com/google/trillian"
-	"github.com/google/trillian/client"
-	"github.com/google/trillian/monitoring"
-	"github.com/google/trillian/types"
+	"github.com/vchain-dev/trillian"
+	"github.com/vchain-dev/trillian/client"
+	"github.com/vchain-dev/trillian/monitoring"
+	"github.com/vchain-dev/trillian/types"
 )
 
 // MergeDelayMonitor submits leaves to a Log and measures merge delay.

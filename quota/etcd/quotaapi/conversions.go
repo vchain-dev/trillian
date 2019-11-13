@@ -17,8 +17,8 @@ package quotaapi
 import (
 	"fmt"
 
-	"github.com/google/trillian/quota/etcd/quotapb"
-	"github.com/google/trillian/quota/etcd/storagepb"
+	"github.com/vchain-dev/trillian/quota/etcd/quotapb"
+	"github.com/vchain-dev/trillian/quota/etcd/storagepb"
 	"google.golang.org/genproto/protobuf/field_mask"
 )
 

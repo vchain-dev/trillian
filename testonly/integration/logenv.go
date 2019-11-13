@@ -27,20 +27,20 @@ import (
 	"github.com/golang/protobuf/proto"
 	"google.golang.org/grpc"
 
-	"github.com/google/trillian"
-	"github.com/google/trillian/crypto/keys/der"
-	"github.com/google/trillian/crypto/keyspb"
-	"github.com/google/trillian/extension"
-	"github.com/google/trillian/quota"
-	"github.com/google/trillian/server"
-	"github.com/google/trillian/server/admin"
-	"github.com/google/trillian/server/interceptor"
-	"github.com/google/trillian/storage/mysql"
-	"github.com/google/trillian/storage/testdb"
-	"github.com/google/trillian/util/clock"
+	"github.com/vchain-dev/trillian"
+	"github.com/vchain-dev/trillian/crypto/keys/der"
+	"github.com/vchain-dev/trillian/crypto/keyspb"
+	"github.com/vchain-dev/trillian/extension"
+	"github.com/vchain-dev/trillian/quota"
+	"github.com/vchain-dev/trillian/server"
+	"github.com/vchain-dev/trillian/server/admin"
+	"github.com/vchain-dev/trillian/server/interceptor"
+	"github.com/vchain-dev/trillian/storage/mysql"
+	"github.com/vchain-dev/trillian/storage/testdb"
+	"github.com/vchain-dev/trillian/util/clock"
 
 	_ "github.com/go-sql-driver/mysql"                   // Load MySQL driver
-	_ "github.com/google/trillian/crypto/keys/der/proto" // Register PrivateKey ProtoHandler
+	_ "github.com/vchain-dev/trillian/crypto/keys/der/proto" // Register PrivateKey ProtoHandler
 )
 
 var (

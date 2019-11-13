@@ -24,17 +24,17 @@ import (
 	"time"
 
 	"github.com/golang/mock/gomock"
-	"github.com/google/trillian"
-	"github.com/google/trillian/crypto/keys/pem"
-	"github.com/google/trillian/merkle/rfc6962"
-	"github.com/google/trillian/quota"
-	"github.com/google/trillian/storage"
-	"github.com/google/trillian/testonly"
-	"github.com/google/trillian/types"
-	"github.com/google/trillian/util/clock"
+	"github.com/vchain-dev/trillian"
+	"github.com/vchain-dev/trillian/crypto/keys/pem"
+	"github.com/vchain-dev/trillian/merkle/rfc6962"
+	"github.com/vchain-dev/trillian/quota"
+	"github.com/vchain-dev/trillian/storage"
+	"github.com/vchain-dev/trillian/testonly"
+	"github.com/vchain-dev/trillian/types"
+	"github.com/vchain-dev/trillian/util/clock"
 
-	tcrypto "github.com/google/trillian/crypto"
-	stestonly "github.com/google/trillian/storage/testonly"
+	tcrypto "github.com/vchain-dev/trillian/crypto"
+	stestonly "github.com/vchain-dev/trillian/storage/testonly"
 )
 
 var (

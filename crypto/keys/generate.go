@@ -24,7 +24,7 @@ import (
 	"fmt"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/google/trillian/crypto/keyspb"
+	"github.com/vchain-dev/trillian/crypto/keyspb"
 	"golang.org/x/crypto/ed25519"
 )
 

@@ -29,9 +29,9 @@ import (
 	"time"
 
 	"github.com/golang/glog"
-	"github.com/google/trillian/docs/storage/commit_log/signer"
-	"github.com/google/trillian/docs/storage/commit_log/simelection"
-	"github.com/google/trillian/docs/storage/commit_log/simkafka"
+	"github.com/vchain-dev/trillian/docs/storage/commit_log/signer"
+	"github.com/vchain-dev/trillian/docs/storage/commit_log/simelection"
+	"github.com/vchain-dev/trillian/docs/storage/commit_log/simkafka"
 )
 
 var (

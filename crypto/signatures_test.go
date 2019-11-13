@@ -17,8 +17,8 @@ package crypto
 import (
 	"testing"
 
-	"github.com/google/trillian/crypto/keys/pem"
-	"github.com/google/trillian/crypto/sigpb"
+	"github.com/vchain-dev/trillian/crypto/keys/pem"
+	"github.com/vchain-dev/trillian/crypto/sigpb"
 )
 
 const (

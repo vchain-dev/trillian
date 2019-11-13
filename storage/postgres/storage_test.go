@@ -22,7 +22,7 @@ import (
 	"time"
 
 	"github.com/golang/glog"
-	"github.com/google/trillian/storage/postgres/testdb"
+	"github.com/vchain-dev/trillian/storage/postgres/testdb"
 )
 
 // db is shared throughout all postgres tests

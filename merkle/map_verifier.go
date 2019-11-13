@@ -18,9 +18,9 @@ import (
 	"bytes"
 	"fmt"
 
-	"github.com/google/trillian"
-	"github.com/google/trillian/merkle/hashers"
-	"github.com/google/trillian/storage"
+	"github.com/vchain-dev/trillian"
+	"github.com/vchain-dev/trillian/merkle/hashers"
+	"github.com/vchain-dev/trillian/storage"
 )
 
 // VerifyMapInclusionProof verifies that the passed in expectedRoot can be

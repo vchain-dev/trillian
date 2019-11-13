@@ -15,7 +15,7 @@
 package merkle
 
 import (
-	"github.com/google/trillian/merkle/hashers"
+	"github.com/vchain-dev/trillian/merkle/hashers"
 )
 
 // hashChainer provides convenience methods for hashing subranges of Merkle

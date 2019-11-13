@@ -17,8 +17,8 @@ package client
 import (
 	"context"
 
-	"github.com/google/trillian"
-	"github.com/google/trillian/types"
+	"github.com/vchain-dev/trillian"
+	"github.com/vchain-dev/trillian/types"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 )

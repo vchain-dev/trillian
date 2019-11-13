@@ -20,7 +20,7 @@ import (
 	"math/bits"
 
 	"github.com/golang/glog"
-	"github.com/google/trillian/storage"
+	"github.com/vchain-dev/trillian/storage"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 )

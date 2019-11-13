@@ -17,8 +17,8 @@ package memory
 import (
 	"github.com/golang/glog"
 	"github.com/google/btree"
-	"github.com/google/trillian/storage"
-	"github.com/google/trillian/storage/storagepb"
+	"github.com/vchain-dev/trillian/storage"
+	"github.com/vchain-dev/trillian/storage/storagepb"
 )
 
 // This file contains utilities that are not part of the Storage API contracts but may

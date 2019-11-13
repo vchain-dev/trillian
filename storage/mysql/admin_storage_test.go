@@ -22,10 +22,10 @@ import (
 
 	"github.com/golang/protobuf/proto"
 	"github.com/golang/protobuf/ptypes"
-	"github.com/google/trillian"
-	"github.com/google/trillian/crypto/keyspb"
-	"github.com/google/trillian/storage"
-	"github.com/google/trillian/storage/testonly"
+	"github.com/vchain-dev/trillian"
+	"github.com/vchain-dev/trillian/crypto/keyspb"
+	"github.com/vchain-dev/trillian/storage"
+	"github.com/vchain-dev/trillian/storage/testonly"
 )
 
 const selectTreeControlByID = "SELECT SigningEnabled, SequencingEnabled, SequenceIntervalSeconds FROM TreeControl WHERE TreeId = ?"

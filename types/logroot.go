@@ -22,7 +22,7 @@ import (
 
 	"github.com/google/certificate-transparency-go/tls"
 
-	"github.com/google/trillian"
+	"github.com/vchain-dev/trillian"
 )
 
 // LogRootV1 holds the TLS-deserialization of the following structure

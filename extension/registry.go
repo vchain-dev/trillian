@@ -17,11 +17,11 @@
 package extension
 
 import (
-	"github.com/google/trillian/crypto/keys"
-	"github.com/google/trillian/monitoring"
-	"github.com/google/trillian/quota"
-	"github.com/google/trillian/storage"
-	"github.com/google/trillian/util/election2"
+	"github.com/vchain-dev/trillian/crypto/keys"
+	"github.com/vchain-dev/trillian/monitoring"
+	"github.com/vchain-dev/trillian/quota"
+	"github.com/vchain-dev/trillian/storage"
+	"github.com/vchain-dev/trillian/util/election2"
 )
 
 // Registry defines all extension points available in Trillian.

@@ -14,7 +14,7 @@
 
 package trees
 
-import "github.com/google/trillian"
+import "github.com/vchain-dev/trillian"
 
 // OpType indicates how a tree is to be used and participates in permissions
 // decisions.

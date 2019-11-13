@@ -28,16 +28,16 @@ import (
 	"github.com/golang/mock/gomock"
 	"github.com/golang/protobuf/proto"
 	"github.com/golang/protobuf/ptypes"
-	"github.com/google/trillian"
-	"github.com/google/trillian/crypto/keys"
-	"github.com/google/trillian/crypto/sigpb"
-	"github.com/google/trillian/storage"
-	"github.com/google/trillian/storage/testonly"
+	"github.com/vchain-dev/trillian"
+	"github.com/vchain-dev/trillian/crypto/keys"
+	"github.com/vchain-dev/trillian/crypto/sigpb"
+	"github.com/vchain-dev/trillian/storage"
+	"github.com/vchain-dev/trillian/storage/testonly"
 	"github.com/kylelemons/godebug/pretty"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 
-	tcrypto "github.com/google/trillian/crypto"
+	tcrypto "github.com/vchain-dev/trillian/crypto"
 )
 
 func TestFromContext(t *testing.T) {

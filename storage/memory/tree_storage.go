@@ -24,10 +24,10 @@ import (
 	"github.com/golang/glog"
 	"github.com/golang/protobuf/proto"
 	"github.com/google/btree"
-	"github.com/google/trillian"
-	"github.com/google/trillian/storage"
-	"github.com/google/trillian/storage/cache"
-	"github.com/google/trillian/storage/storagepb"
+	"github.com/vchain-dev/trillian"
+	"github.com/vchain-dev/trillian/storage"
+	"github.com/vchain-dev/trillian/storage/cache"
+	"github.com/vchain-dev/trillian/storage/storagepb"
 )
 
 const degree = 8

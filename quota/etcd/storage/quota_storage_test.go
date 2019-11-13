@@ -24,10 +24,10 @@ import (
 
 	"github.com/coreos/etcd/clientv3"
 	"github.com/golang/protobuf/proto"
-	"github.com/google/trillian/quota"
-	"github.com/google/trillian/quota/etcd/storagepb"
-	"github.com/google/trillian/testonly/integration/etcd"
-	"github.com/google/trillian/util/clock"
+	"github.com/vchain-dev/trillian/quota"
+	"github.com/vchain-dev/trillian/quota/etcd/storagepb"
+	"github.com/vchain-dev/trillian/testonly/integration/etcd"
+	"github.com/vchain-dev/trillian/util/clock"
 	"github.com/kylelemons/godebug/pretty"
 )
 

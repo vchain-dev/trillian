@@ -21,8 +21,8 @@ import (
 	"sync"
 
 	"github.com/golang/glog"
-	"github.com/google/trillian/storage"
-	"github.com/google/trillian/storage/storagepb"
+	"github.com/vchain-dev/trillian/storage"
+	"github.com/vchain-dev/trillian/storage/storagepb"
 )
 
 // GetSubtreeFunc describes a function which can return a Subtree from storage.

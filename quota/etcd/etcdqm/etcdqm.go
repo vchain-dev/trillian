@@ -20,8 +20,8 @@ import (
 	"fmt"
 
 	"github.com/coreos/etcd/clientv3"
-	"github.com/google/trillian/quota"
-	"github.com/google/trillian/quota/etcd/storage"
+	"github.com/vchain-dev/trillian/quota"
+	"github.com/vchain-dev/trillian/quota/etcd/storage"
 )
 
 type manager struct {

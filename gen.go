@@ -19,6 +19,6 @@ package trillian
 //go:generate protoc -I=. --go_out=:$GOPATH/src crypto/keyspb/keyspb.proto
 //go:generate protoc -I=. -I=$GOPATH/src -I=$GOPATH/src/github.com/googleapis/googleapis --grpc-gateway_out=logtostderr=true:$GOPATH/src trillian_log_api.proto trillian_map_api.proto trillian_admin_api.proto trillian.proto
 
-//go:generate mockgen -package tmock -destination testonly/tmock/mock_log_server.go  github.com/google/trillian TrillianLogServer
-//go:generate mockgen -package tmock -destination testonly/tmock/mock_map_server.go  github.com/google/trillian TrillianMapServer
-//go:generate mockgen -package tmock -destination testonly/tmock/mock_admin_server.go github.com/google/trillian TrillianAdminServer
+//go:generate mockgen -package tmock -destination testonly/tmock/mock_log_server.go  github.com/vchain-dev/trillian TrillianLogServer
+//go:generate mockgen -package tmock -destination testonly/tmock/mock_map_server.go  github.com/vchain-dev/trillian TrillianMapServer
+//go:generate mockgen -package tmock -destination testonly/tmock/mock_admin_server.go github.com/vchain-dev/trillian TrillianAdminServer

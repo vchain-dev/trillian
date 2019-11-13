@@ -19,8 +19,8 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/google/trillian/testonly/integration/etcd"
-	"github.com/google/trillian/util/election2/testonly"
+	"github.com/vchain-dev/trillian/testonly/integration/etcd"
+	"github.com/vchain-dev/trillian/util/election2/testonly"
 )
 
 func TestElectionThroughCommonClient(t *testing.T) {

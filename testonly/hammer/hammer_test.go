@@ -21,12 +21,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/google/trillian/monitoring"
-	"github.com/google/trillian/storage/testdb"
-	"github.com/google/trillian/testonly/integration"
+	"github.com/vchain-dev/trillian/monitoring"
+	"github.com/vchain-dev/trillian/storage/testdb"
+	"github.com/vchain-dev/trillian/testonly/integration"
 
-	_ "github.com/google/trillian/merkle/coniks"    // register CONIKS_SHA512_256
-	_ "github.com/google/trillian/merkle/maphasher" // register TEST_MAP_HASHER
+	_ "github.com/vchain-dev/trillian/merkle/coniks"    // register CONIKS_SHA512_256
+	_ "github.com/vchain-dev/trillian/merkle/maphasher" // register TEST_MAP_HASHER
 )
 
 var (

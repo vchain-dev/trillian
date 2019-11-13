@@ -25,11 +25,11 @@ import (
 	"time"
 
 	"github.com/golang/glog"
-	"github.com/google/trillian/extension"
-	"github.com/google/trillian/monitoring"
-	"github.com/google/trillian/storage"
-	"github.com/google/trillian/util/clock"
-	"github.com/google/trillian/util/election"
+	"github.com/vchain-dev/trillian/extension"
+	"github.com/vchain-dev/trillian/monitoring"
+	"github.com/vchain-dev/trillian/storage"
+	"github.com/vchain-dev/trillian/util/clock"
+	"github.com/vchain-dev/trillian/util/election"
 )
 
 const logIDLabel = "logid"

@@ -18,8 +18,8 @@ import (
 	"net"
 
 	"github.com/golang/mock/gomock"
-	"github.com/google/trillian"
-	"github.com/google/trillian/testonly/tmock"
+	"github.com/vchain-dev/trillian"
+	"github.com/vchain-dev/trillian/testonly/tmock"
 	"google.golang.org/grpc"
 )
 

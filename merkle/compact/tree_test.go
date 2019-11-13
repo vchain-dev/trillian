@@ -23,9 +23,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/google/trillian/merkle"
-	"github.com/google/trillian/merkle/rfc6962"
-	"github.com/google/trillian/testonly"
+	"github.com/vchain-dev/trillian/merkle"
+	"github.com/vchain-dev/trillian/merkle/rfc6962"
+	"github.com/vchain-dev/trillian/testonly"
 	"github.com/kylelemons/godebug/pretty"
 )
 

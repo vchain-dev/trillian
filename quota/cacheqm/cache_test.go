@@ -21,8 +21,8 @@ import (
 	"time"
 
 	"github.com/golang/mock/gomock"
-	"github.com/google/trillian/quota"
-	"github.com/google/trillian/testonly/matchers"
+	"github.com/vchain-dev/trillian/quota"
+	"github.com/vchain-dev/trillian/testonly/matchers"
 	"github.com/kylelemons/godebug/pretty"
 )
 

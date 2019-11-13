@@ -20,14 +20,14 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/google/trillian"
-	"github.com/google/trillian/client"
-	"github.com/google/trillian/testonly/flagsaver"
-	"github.com/google/trillian/testonly/integration"
-	"github.com/google/trillian/testonly/setup"
+	"github.com/vchain-dev/trillian"
+	"github.com/vchain-dev/trillian/client"
+	"github.com/vchain-dev/trillian/testonly/flagsaver"
+	"github.com/vchain-dev/trillian/testonly/integration"
+	"github.com/vchain-dev/trillian/testonly/setup"
 	"google.golang.org/grpc"
 
-	stestonly "github.com/google/trillian/storage/testonly"
+	stestonly "github.com/vchain-dev/trillian/storage/testonly"
 )
 
 func TestGetTreePublicKey(t *testing.T) {

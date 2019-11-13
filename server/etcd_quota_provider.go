@@ -19,10 +19,10 @@ import (
 	"fmt"
 
 	"github.com/golang/glog"
-	"github.com/google/trillian/quota"
-	"github.com/google/trillian/quota/cacheqm"
-	"github.com/google/trillian/quota/etcd/etcdqm"
-	"github.com/google/trillian/util/etcd"
+	"github.com/vchain-dev/trillian/quota"
+	"github.com/vchain-dev/trillian/quota/cacheqm"
+	"github.com/vchain-dev/trillian/quota/etcd/etcdqm"
+	"github.com/vchain-dev/trillian/util/etcd"
 )
 
 // QuotaEtcd represents the etcd quota implementation.

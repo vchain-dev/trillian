@@ -18,7 +18,7 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/google/trillian/monitoring"
+	"github.com/vchain-dev/trillian/monitoring"
 )
 
 var (

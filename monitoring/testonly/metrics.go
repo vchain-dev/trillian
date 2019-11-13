@@ -17,7 +17,7 @@ package testonly
 import (
 	"testing"
 
-	"github.com/google/trillian/monitoring"
+	"github.com/vchain-dev/trillian/monitoring"
 )
 
 // TestCounter runs a test on a Counter produced from the provided MetricFactory.

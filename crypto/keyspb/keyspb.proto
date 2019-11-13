@@ -14,7 +14,7 @@
 
 syntax = "proto3";
 
-option go_package = "github.com/google/trillian/crypto/keyspb";
+option go_package = "github.com/vchain-dev/trillian/crypto/keyspb";
 
 package keyspb;
 

@@ -18,7 +18,7 @@ import (
 	"context"
 	"time"
 
-	"github.com/google/trillian"
+	"github.com/vchain-dev/trillian"
 )
 
 // ReadOnlyLogTX provides a read-only view into log data.

@@ -22,9 +22,9 @@ import (
 	"github.com/golang/protobuf/proto"
 	"github.com/golang/protobuf/ptypes"
 	"github.com/golang/protobuf/ptypes/any"
-	"github.com/google/trillian"
-	"github.com/google/trillian/crypto/keyspb"
-	spb "github.com/google/trillian/crypto/sigpb"
+	"github.com/vchain-dev/trillian"
+	"github.com/vchain-dev/trillian/crypto/keyspb"
+	spb "github.com/vchain-dev/trillian/crypto/sigpb"
 )
 
 // ToMillisSinceEpoch converts a timestamp into milliseconds since epoch

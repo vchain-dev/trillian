@@ -17,7 +17,7 @@ package storage
 import (
 	"context"
 
-	"github.com/google/trillian"
+	"github.com/vchain-dev/trillian"
 )
 
 // ReadOnlyMapTX provides a read-only view into log data.

@@ -23,9 +23,9 @@ import (
 	"fmt"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/google/trillian/crypto/keys"
-	"github.com/google/trillian/crypto/keys/pkcs11"
-	"github.com/google/trillian/crypto/keyspb"
+	"github.com/vchain-dev/trillian/crypto/keys"
+	"github.com/vchain-dev/trillian/crypto/keys/pkcs11"
+	"github.com/vchain-dev/trillian/crypto/keyspb"
 )
 
 var modulePath = flag.String("pkcs11_module_path", "", "Path to the PKCS#11 module to use for keys that use the PKCS#11 interface")

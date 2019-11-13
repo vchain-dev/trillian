@@ -20,9 +20,9 @@ import (
 	"sync"
 
 	"github.com/golang/glog"
-	"github.com/google/trillian/monitoring"
-	"github.com/google/trillian/storage"
-	"github.com/google/trillian/storage/mysql"
+	"github.com/vchain-dev/trillian/monitoring"
+	"github.com/vchain-dev/trillian/storage"
+	"github.com/vchain-dev/trillian/storage/mysql"
 
 	// Load MySQL driver
 	_ "github.com/go-sql-driver/mysql"

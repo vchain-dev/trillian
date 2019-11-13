@@ -22,8 +22,8 @@ import (
 	"math/rand"
 	"testing"
 
-	"github.com/google/trillian/merkle/hashers"
-	"github.com/google/trillian/merkle/rfc6962"
+	"github.com/vchain-dev/trillian/merkle/hashers"
+	"github.com/vchain-dev/trillian/merkle/rfc6962"
 )
 
 // Note test inputs came from the values used by the C++ code. The original

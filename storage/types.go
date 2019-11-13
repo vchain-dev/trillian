@@ -25,7 +25,7 @@ import (
 	"strings"
 
 	"github.com/golang/glog"
-	"github.com/google/trillian/storage/storagepb"
+	"github.com/vchain-dev/trillian/storage/storagepb"
 )
 
 const hexChars = "0123456789abcdef"

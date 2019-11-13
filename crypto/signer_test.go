@@ -20,9 +20,9 @@ import (
 	"testing"
 
 	"github.com/golang/mock/gomock"
-	"github.com/google/trillian/crypto/keys/pem"
-	"github.com/google/trillian/testonly"
-	"github.com/google/trillian/types"
+	"github.com/vchain-dev/trillian/crypto/keys/pem"
+	"github.com/vchain-dev/trillian/testonly"
+	"github.com/vchain-dev/trillian/types"
 )
 
 const message string = "testing"

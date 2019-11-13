@@ -19,7 +19,7 @@ import (
 	"strings"
 	"testing"
 
-	_ "github.com/google/trillian/crypto/keys/der/proto"
+	_ "github.com/vchain-dev/trillian/crypto/keys/der/proto"
 )
 
 // TestDBFormatNoChange ensures that the prefix, suffix, and protos stored in the database do not change.

@@ -20,9 +20,9 @@ import (
 	"fmt"
 
 	"github.com/golang/glog"
-	"github.com/google/trillian/merkle/compact"
-	"github.com/google/trillian/merkle/rfc6962"
-	"github.com/google/trillian/storage"
+	"github.com/vchain-dev/trillian/merkle/compact"
+	"github.com/vchain-dev/trillian/merkle/rfc6962"
+	"github.com/vchain-dev/trillian/storage"
 )
 
 // This is a fake implementation of a NodeReader intended for use in testing Merkle path code.

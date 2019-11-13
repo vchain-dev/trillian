@@ -20,10 +20,10 @@ import (
 
 	"github.com/golang/protobuf/proto"
 	"github.com/golang/protobuf/ptypes"
-	"github.com/google/trillian"
-	"github.com/google/trillian/crypto/keys"
-	"github.com/google/trillian/crypto/keys/der"
-	"github.com/google/trillian/crypto/sigpb"
+	"github.com/vchain-dev/trillian"
+	"github.com/vchain-dev/trillian/crypto/keys"
+	"github.com/vchain-dev/trillian/crypto/keys/der"
+	"github.com/vchain-dev/trillian/crypto/sigpb"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 )

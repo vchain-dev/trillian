@@ -23,9 +23,9 @@ import (
 	"github.com/golang/protobuf/proto"
 	"github.com/golang/protobuf/ptypes"
 	"github.com/golang/protobuf/ptypes/empty"
-	"github.com/google/trillian"
-	"github.com/google/trillian/storage"
-	"github.com/google/trillian/storage/testonly"
+	"github.com/vchain-dev/trillian"
+	"github.com/vchain-dev/trillian/storage"
+	"github.com/vchain-dev/trillian/storage/testonly"
 )
 
 var allTables = []string{"unsequenced", "tree_head", "sequenced_leaf_data", "leaf_data", "subtree", "tree_control", "trees"}

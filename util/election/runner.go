@@ -21,8 +21,8 @@ import (
 	"time"
 
 	"github.com/golang/glog"
-	"github.com/google/trillian/util/clock"
-	"github.com/google/trillian/util/election2"
+	"github.com/vchain-dev/trillian/util/clock"
+	"github.com/vchain-dev/trillian/util/election2"
 )
 
 // Minimum values for configuration intervals.

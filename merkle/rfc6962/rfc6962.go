@@ -19,8 +19,8 @@ import (
 	"crypto"
 	_ "crypto/sha256" // SHA256 is the default algorithm.
 
-	"github.com/google/trillian"
-	"github.com/google/trillian/merkle/hashers"
+	"github.com/vchain-dev/trillian"
+	"github.com/vchain-dev/trillian/merkle/hashers"
 )
 
 func init() {

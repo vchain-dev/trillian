@@ -26,11 +26,11 @@ import (
 
 	"github.com/golang/glog"
 	"github.com/golang/protobuf/proto"
-	"github.com/google/trillian"
-	"github.com/google/trillian/client"
-	"github.com/google/trillian/monitoring"
-	"github.com/google/trillian/testonly"
-	"github.com/google/trillian/types"
+	"github.com/vchain-dev/trillian"
+	"github.com/vchain-dev/trillian/client"
+	"github.com/vchain-dev/trillian/monitoring"
+	"github.com/vchain-dev/trillian/testonly"
+	"github.com/vchain-dev/trillian/types"
 )
 
 const (

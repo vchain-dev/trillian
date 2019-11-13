@@ -33,7 +33,7 @@ import (
 	"github.com/coreos/etcd/clientv3"
 	etcdnaming "github.com/coreos/etcd/clientv3/naming"
 	"github.com/golang/glog"
-	"github.com/google/trillian/util"
+	"github.com/vchain-dev/trillian/util"
 	"google.golang.org/grpc/naming"
 )
 

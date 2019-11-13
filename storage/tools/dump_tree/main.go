@@ -41,7 +41,7 @@ import (
 	"fmt"
 
 	"github.com/golang/glog"
-	"github.com/google/trillian/storage/tools/dump_tree/dumplib"
+	"github.com/vchain-dev/trillian/storage/tools/dump_tree/dumplib"
 )
 
 var (

@@ -20,9 +20,9 @@ import (
 	"testing"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/google/trillian/crypto/keys"
-	"github.com/google/trillian/crypto/keys/testonly"
-	"github.com/google/trillian/crypto/keyspb"
+	"github.com/vchain-dev/trillian/crypto/keys"
+	"github.com/vchain-dev/trillian/crypto/keys/testonly"
+	"github.com/vchain-dev/trillian/crypto/keyspb"
 )
 
 func TestProtoHandler(t *testing.T) {

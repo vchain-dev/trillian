@@ -37,13 +37,13 @@ import (
 
 	"github.com/golang/glog"
 	"github.com/golang/protobuf/ptypes"
-	"github.com/google/trillian"
-	"github.com/google/trillian/client"
-	"github.com/google/trillian/client/rpcflags"
-	"github.com/google/trillian/cmd"
-	"github.com/google/trillian/cmd/createtree/keys"
-	"github.com/google/trillian/crypto/keyspb"
-	"github.com/google/trillian/crypto/sigpb"
+	"github.com/vchain-dev/trillian"
+	"github.com/vchain-dev/trillian/client"
+	"github.com/vchain-dev/trillian/client/rpcflags"
+	"github.com/vchain-dev/trillian/cmd"
+	"github.com/vchain-dev/trillian/cmd/createtree/keys"
+	"github.com/vchain-dev/trillian/crypto/keyspb"
+	"github.com/vchain-dev/trillian/crypto/sigpb"
 	"google.golang.org/grpc"
 )
 

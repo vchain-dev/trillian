@@ -31,15 +31,15 @@ import (
 	"time"
 
 	"github.com/golang/glog"
-	"github.com/google/trillian"
-	"github.com/google/trillian/monitoring"
-	"github.com/google/trillian/monitoring/prometheus"
-	"github.com/google/trillian/testonly/hammer"
+	"github.com/vchain-dev/trillian"
+	"github.com/vchain-dev/trillian/monitoring"
+	"github.com/vchain-dev/trillian/monitoring/prometheus"
+	"github.com/vchain-dev/trillian/testonly/hammer"
 	"github.com/prometheus/client_golang/prometheus/promhttp"
 	"google.golang.org/grpc"
 
-	_ "github.com/google/trillian/merkle/coniks"    // register CONIKS_SHA512_256
-	_ "github.com/google/trillian/merkle/maphasher" // register TEST_MAP_HASHER
+	_ "github.com/vchain-dev/trillian/merkle/coniks"    // register CONIKS_SHA512_256
+	_ "github.com/vchain-dev/trillian/merkle/maphasher" // register TEST_MAP_HASHER
 )
 
 var (

@@ -20,11 +20,11 @@ import (
 	"log"
 	"testing"
 
-	"github.com/google/trillian/storage/testdb"
-	"github.com/google/trillian/testonly/integration"
+	"github.com/vchain-dev/trillian/storage/testdb"
+	"github.com/vchain-dev/trillian/testonly/integration"
 
-	_ "github.com/google/trillian/merkle/coniks"
-	_ "github.com/google/trillian/merkle/maphasher"
+	_ "github.com/vchain-dev/trillian/merkle/coniks"
+	_ "github.com/vchain-dev/trillian/merkle/maphasher"
 )
 
 var (

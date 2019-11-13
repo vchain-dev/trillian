@@ -18,8 +18,8 @@ import (
 	"flag"
 
 	"github.com/golang/glog"
-	"github.com/google/trillian/quota"
-	"github.com/google/trillian/quota/mysqlqm"
+	"github.com/vchain-dev/trillian/quota"
+	"github.com/vchain-dev/trillian/quota/mysqlqm"
 )
 
 // QuotaMySQL represents the MySQL quota implementation.

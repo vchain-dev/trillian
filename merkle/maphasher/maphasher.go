@@ -20,8 +20,8 @@ import (
 	"fmt"
 
 	"github.com/golang/glog"
-	"github.com/google/trillian"
-	"github.com/google/trillian/merkle/hashers"
+	"github.com/vchain-dev/trillian"
+	"github.com/vchain-dev/trillian/merkle/hashers"
 )
 
 func init() {

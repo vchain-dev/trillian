@@ -21,8 +21,8 @@ import (
 	"testing"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/google/trillian"
-	"github.com/google/trillian/testonly"
+	"github.com/vchain-dev/trillian"
+	"github.com/vchain-dev/trillian/testonly"
 )
 
 var dehex = testonly.MustHexDecode

@@ -17,7 +17,7 @@ package hashers
 import (
 	"fmt"
 
-	"github.com/google/trillian"
+	"github.com/vchain-dev/trillian"
 )
 
 // LogHasher provides the hash functions needed to compute dense merkle trees.

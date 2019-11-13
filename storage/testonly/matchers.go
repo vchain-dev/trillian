@@ -20,7 +20,7 @@ import (
 	"sort"
 
 	"github.com/golang/mock/gomock"
-	"github.com/google/trillian/storage"
+	"github.com/vchain-dev/trillian/storage"
 )
 
 type nodeIDEq struct {

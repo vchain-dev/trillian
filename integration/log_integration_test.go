@@ -22,16 +22,16 @@ import (
 
 	"google.golang.org/grpc"
 
-	"github.com/google/trillian"
-	"github.com/google/trillian/client"
-	"github.com/google/trillian/extension"
-	"github.com/google/trillian/quota"
-	"github.com/google/trillian/storage/memory"
-	"github.com/google/trillian/storage/testdb"
-	"github.com/google/trillian/testonly/integration"
+	"github.com/vchain-dev/trillian"
+	"github.com/vchain-dev/trillian/client"
+	"github.com/vchain-dev/trillian/extension"
+	"github.com/vchain-dev/trillian/quota"
+	"github.com/vchain-dev/trillian/storage/memory"
+	"github.com/vchain-dev/trillian/storage/testdb"
+	"github.com/vchain-dev/trillian/testonly/integration"
 
-	_ "github.com/google/trillian/crypto/keys/der/proto" // Register PrivateKey ProtoHandler
-	stestonly "github.com/google/trillian/storage/testonly"
+	_ "github.com/vchain-dev/trillian/crypto/keys/der/proto" // Register PrivateKey ProtoHandler
+	stestonly "github.com/vchain-dev/trillian/storage/testonly"
 )
 
 var treeIDFlag = flag.Int64("treeid", -1, "The tree id to use")

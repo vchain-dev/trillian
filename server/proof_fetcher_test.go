@@ -21,11 +21,11 @@ import (
 	"testing"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/google/trillian"
-	"github.com/google/trillian/merkle"
-	"github.com/google/trillian/merkle/rfc6962"
-	"github.com/google/trillian/storage"
-	"github.com/google/trillian/storage/testonly"
+	"github.com/vchain-dev/trillian"
+	"github.com/vchain-dev/trillian/merkle"
+	"github.com/vchain-dev/trillian/merkle/rfc6962"
+	"github.com/vchain-dev/trillian/storage"
+	"github.com/vchain-dev/trillian/storage/testonly"
 )
 
 // rehashTest encapsulates one test case for the rehasher in isolation. Input data like the storage

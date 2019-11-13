@@ -19,7 +19,7 @@ import (
 	"math"
 	"testing"
 
-	"github.com/google/trillian/monitoring"
+	"github.com/vchain-dev/trillian/monitoring"
 )
 
 func TestPercentileBucketsInvalid(t *testing.T) {

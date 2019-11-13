@@ -24,8 +24,8 @@ import (
 	"strings"
 
 	"github.com/golang/glog"
-	"github.com/google/trillian"
-	"github.com/google/trillian/testonly/hammer"
+	"github.com/vchain-dev/trillian"
+	"github.com/vchain-dev/trillian/testonly/hammer"
 	"google.golang.org/grpc"
 )
 

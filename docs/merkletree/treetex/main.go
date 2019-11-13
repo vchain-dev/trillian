@@ -29,8 +29,8 @@ import (
 	"math/bits"
 	"strings"
 
-	"github.com/google/trillian/merkle"
-	"github.com/google/trillian/storage"
+	"github.com/vchain-dev/trillian/merkle"
+	"github.com/vchain-dev/trillian/storage"
 )
 
 const (

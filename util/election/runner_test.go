@@ -22,9 +22,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/google/trillian/util/clock"
-	"github.com/google/trillian/util/election"
-	to "github.com/google/trillian/util/election2/testonly"
+	"github.com/vchain-dev/trillian/util/clock"
+	"github.com/vchain-dev/trillian/util/election"
+	to "github.com/vchain-dev/trillian/util/election2/testonly"
 )
 
 func TestConfigResignDelay(t *testing.T) {

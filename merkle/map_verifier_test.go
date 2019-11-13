@@ -17,10 +17,10 @@ package merkle
 import (
 	"testing"
 
-	"github.com/google/trillian"
-	"github.com/google/trillian/merkle/coniks"
-	"github.com/google/trillian/merkle/maphasher"
-	"github.com/google/trillian/testonly"
+	"github.com/vchain-dev/trillian"
+	"github.com/vchain-dev/trillian/merkle/coniks"
+	"github.com/vchain-dev/trillian/merkle/maphasher"
+	"github.com/vchain-dev/trillian/testonly"
 )
 
 var h2b = testonly.MustHexDecode

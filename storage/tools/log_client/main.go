@@ -22,7 +22,7 @@ import (
 	"time"
 
 	"github.com/golang/glog"
-	"github.com/google/trillian"
+	"github.com/vchain-dev/trillian"
 	"google.golang.org/grpc"
 )
 

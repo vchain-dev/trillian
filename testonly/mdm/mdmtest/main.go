@@ -24,23 +24,23 @@ import (
 
 	"github.com/golang/glog"
 	"github.com/golang/protobuf/ptypes"
-	"github.com/google/trillian"
-	"github.com/google/trillian/client"
-	"github.com/google/trillian/crypto/keyspb"
-	"github.com/google/trillian/crypto/sigpb"
-	"github.com/google/trillian/monitoring"
-	"github.com/google/trillian/monitoring/prometheus"
-	"github.com/google/trillian/testonly/mdm"
-	"github.com/google/trillian/util"
+	"github.com/vchain-dev/trillian"
+	"github.com/vchain-dev/trillian/client"
+	"github.com/vchain-dev/trillian/crypto/keyspb"
+	"github.com/vchain-dev/trillian/crypto/sigpb"
+	"github.com/vchain-dev/trillian/monitoring"
+	"github.com/vchain-dev/trillian/monitoring/prometheus"
+	"github.com/vchain-dev/trillian/testonly/mdm"
+	"github.com/vchain-dev/trillian/util"
 	"github.com/prometheus/client_golang/prometheus/promhttp"
 	"google.golang.org/grpc"
 
 	// Register key ProtoHandlers
-	_ "github.com/google/trillian/crypto/keys/der/proto"
-	_ "github.com/google/trillian/crypto/keys/pem/proto"
+	_ "github.com/vchain-dev/trillian/crypto/keys/der/proto"
+	_ "github.com/vchain-dev/trillian/crypto/keys/pem/proto"
 
 	// Load hashers
-	_ "github.com/google/trillian/merkle/rfc6962"
+	_ "github.com/vchain-dev/trillian/merkle/rfc6962"
 )
 
 var (

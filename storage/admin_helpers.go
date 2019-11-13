@@ -18,11 +18,11 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/google/trillian"
+	"github.com/vchain-dev/trillian"
 	"go.opencensus.io/trace"
 )
 
-const traceSpanRoot = "github.com/google/trillian/storage"
+const traceSpanRoot = "github.com/vchain-dev/trillian/storage"
 
 // GetTree reads a tree from storage using a snapshot transaction.
 // It's a convenience wrapper around RunInAdminSnapshot and AdminReader's GetTree.

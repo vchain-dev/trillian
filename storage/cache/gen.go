@@ -15,11 +15,11 @@
 // Package cache provides subtree caching functionality.
 package cache
 
-//go:generate mockgen -self_package github.com/google/trillian/storage/cache -package cache -imports github.com/google/trillian/storage/storagepb -destination mock_node_storage.go github.com/google/trillian/storage/cache NodeStorage
+//go:generate mockgen -self_package github.com/vchain-dev/trillian/storage/cache -package cache -imports github.com/vchain-dev/trillian/storage/storagepb -destination mock_node_storage.go github.com/vchain-dev/trillian/storage/cache NodeStorage
 
 import (
-	"github.com/google/trillian/storage"
-	"github.com/google/trillian/storage/storagepb"
+	"github.com/vchain-dev/trillian/storage"
+	"github.com/vchain-dev/trillian/storage/storagepb"
 )
 
 // NodeStorage provides an interface for storing and retrieving subtrees.

@@ -18,9 +18,9 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/google/trillian/crypto/keys/der"
-	"github.com/google/trillian/crypto/keys/pem"
-	"github.com/google/trillian/crypto/keyspb"
+	"github.com/vchain-dev/trillian/crypto/keys/der"
+	"github.com/vchain-dev/trillian/crypto/keys/pem"
+	"github.com/vchain-dev/trillian/crypto/keyspb"
 )
 
 func TestWithPEMKeyFile(t *testing.T) {

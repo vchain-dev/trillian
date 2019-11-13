@@ -21,9 +21,9 @@ import (
 
 	"github.com/golang/glog"
 	pb "github.com/golang/protobuf/proto"
-	"github.com/google/trillian"
-	"github.com/google/trillian/examples/ct/ctmapper"
-	"github.com/google/trillian/examples/ct/ctmapper/ctmapperpb"
+	"github.com/vchain-dev/trillian"
+	"github.com/vchain-dev/trillian/examples/ct/ctmapper"
+	"github.com/vchain-dev/trillian/examples/ct/ctmapper/ctmapperpb"
 	"google.golang.org/grpc"
 )
 

@@ -20,8 +20,8 @@ import (
 	"flag"
 
 	"github.com/golang/glog"
-	"github.com/google/trillian"
-	"github.com/google/trillian/testonly"
+	"github.com/vchain-dev/trillian"
+	"github.com/vchain-dev/trillian/testonly"
 	"google.golang.org/grpc"
 )
 

@@ -24,28 +24,28 @@ import (
 
 	"github.com/golang/glog"
 	"github.com/golang/protobuf/proto"
-	"github.com/google/trillian"
-	"github.com/google/trillian/cmd"
-	"github.com/google/trillian/crypto/keys/der"
-	"github.com/google/trillian/crypto/keyspb"
-	"github.com/google/trillian/extension"
-	"github.com/google/trillian/monitoring/opencensus"
-	"github.com/google/trillian/monitoring/prometheus"
-	"github.com/google/trillian/quota/etcd/quotaapi"
-	"github.com/google/trillian/quota/etcd/quotapb"
-	"github.com/google/trillian/server"
-	"github.com/google/trillian/util/etcd"
+	"github.com/vchain-dev/trillian"
+	"github.com/vchain-dev/trillian/cmd"
+	"github.com/vchain-dev/trillian/crypto/keys/der"
+	"github.com/vchain-dev/trillian/crypto/keyspb"
+	"github.com/vchain-dev/trillian/extension"
+	"github.com/vchain-dev/trillian/monitoring/opencensus"
+	"github.com/vchain-dev/trillian/monitoring/prometheus"
+	"github.com/vchain-dev/trillian/quota/etcd/quotaapi"
+	"github.com/vchain-dev/trillian/quota/etcd/quotapb"
+	"github.com/vchain-dev/trillian/server"
+	"github.com/vchain-dev/trillian/util/etcd"
 	"github.com/grpc-ecosystem/grpc-gateway/runtime"
 	"google.golang.org/grpc"
 
 	// Register key ProtoHandlers
-	_ "github.com/google/trillian/crypto/keys/der/proto"
-	_ "github.com/google/trillian/crypto/keys/pem/proto"
-	_ "github.com/google/trillian/crypto/keys/pkcs11/proto"
+	_ "github.com/vchain-dev/trillian/crypto/keys/der/proto"
+	_ "github.com/vchain-dev/trillian/crypto/keys/pem/proto"
+	_ "github.com/vchain-dev/trillian/crypto/keys/pkcs11/proto"
 
 	// Load hashers
-	_ "github.com/google/trillian/merkle/coniks"
-	_ "github.com/google/trillian/merkle/maphasher"
+	_ "github.com/vchain-dev/trillian/merkle/coniks"
+	_ "github.com/vchain-dev/trillian/merkle/maphasher"
 )
 
 var (

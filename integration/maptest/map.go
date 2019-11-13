@@ -24,13 +24,13 @@ import (
 	"github.com/golang/glog"
 	"github.com/kylelemons/godebug/pretty"
 
-	"github.com/google/trillian"
-	"github.com/google/trillian/client"
-	"github.com/google/trillian/examples/ct/ctmapper/ctmapperpb"
-	"github.com/google/trillian/testonly"
-	"github.com/google/trillian/types"
+	"github.com/vchain-dev/trillian"
+	"github.com/vchain-dev/trillian/client"
+	"github.com/vchain-dev/trillian/examples/ct/ctmapper/ctmapperpb"
+	"github.com/vchain-dev/trillian/testonly"
+	"github.com/vchain-dev/trillian/types"
 
-	stestonly "github.com/google/trillian/storage/testonly"
+	stestonly "github.com/vchain-dev/trillian/storage/testonly"
 )
 
 // NamedTestFn is a binding between a readable test name (used for a Go subtest) and a function

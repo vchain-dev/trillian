@@ -22,12 +22,12 @@ import (
 
 	"cloud.google.com/go/spanner"
 	"github.com/golang/glog"
-	"github.com/google/trillian"
-	"github.com/google/trillian/merkle/hashers"
-	"github.com/google/trillian/storage"
-	"github.com/google/trillian/storage/cache"
-	"github.com/google/trillian/storage/cloudspanner/spannerpb"
-	"github.com/google/trillian/types"
+	"github.com/vchain-dev/trillian"
+	"github.com/vchain-dev/trillian/merkle/hashers"
+	"github.com/vchain-dev/trillian/storage"
+	"github.com/vchain-dev/trillian/storage/cache"
+	"github.com/vchain-dev/trillian/storage/cloudspanner/spannerpb"
+	"github.com/vchain-dev/trillian/types"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 )

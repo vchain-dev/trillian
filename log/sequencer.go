@@ -25,16 +25,16 @@ import (
 
 	"github.com/golang/glog"
 	"github.com/golang/protobuf/ptypes"
-	"github.com/google/trillian"
-	"github.com/google/trillian/merkle/compact"
-	"github.com/google/trillian/merkle/hashers"
-	"github.com/google/trillian/monitoring"
-	"github.com/google/trillian/quota"
-	"github.com/google/trillian/storage"
-	"github.com/google/trillian/types"
-	"github.com/google/trillian/util/clock"
+	"github.com/vchain-dev/trillian"
+	"github.com/vchain-dev/trillian/merkle/compact"
+	"github.com/vchain-dev/trillian/merkle/hashers"
+	"github.com/vchain-dev/trillian/monitoring"
+	"github.com/vchain-dev/trillian/quota"
+	"github.com/vchain-dev/trillian/storage"
+	"github.com/vchain-dev/trillian/types"
+	"github.com/vchain-dev/trillian/util/clock"
 
-	tcrypto "github.com/google/trillian/crypto"
+	tcrypto "github.com/vchain-dev/trillian/crypto"
 )
 
 const logIDLabel = "logid"

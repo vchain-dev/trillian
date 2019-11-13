@@ -26,7 +26,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/google/trillian/testonly"
+	"github.com/vchain-dev/trillian/testonly"
 
 	_ "github.com/lib/pq" // pg driver
 )

@@ -22,10 +22,10 @@ import (
 	"testing"
 
 	"github.com/coreos/etcd/clientv3"
-	"github.com/google/trillian/quota"
-	"github.com/google/trillian/quota/etcd/storage"
-	"github.com/google/trillian/quota/etcd/storagepb"
-	"github.com/google/trillian/testonly/integration/etcd"
+	"github.com/vchain-dev/trillian/quota"
+	"github.com/vchain-dev/trillian/quota/etcd/storage"
+	"github.com/vchain-dev/trillian/quota/etcd/storagepb"
+	"github.com/vchain-dev/trillian/testonly/integration/etcd"
 	"github.com/kylelemons/godebug/pretty"
 )
 

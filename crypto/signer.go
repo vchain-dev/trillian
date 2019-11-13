@@ -20,8 +20,8 @@ import (
 	"crypto/rand"
 
 	"github.com/golang/glog"
-	"github.com/google/trillian"
-	"github.com/google/trillian/types"
+	"github.com/vchain-dev/trillian"
+	"github.com/vchain-dev/trillian/types"
 	"golang.org/x/crypto/ed25519"
 )
 

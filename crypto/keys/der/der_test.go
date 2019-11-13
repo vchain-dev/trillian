@@ -19,9 +19,9 @@ import (
 	"encoding/base64"
 	"testing"
 
-	. "github.com/google/trillian/crypto/keys/der"
-	"github.com/google/trillian/crypto/keys/testonly"
-	"github.com/google/trillian/crypto/keyspb"
+	. "github.com/vchain-dev/trillian/crypto/keys/der"
+	"github.com/vchain-dev/trillian/crypto/keys/testonly"
+	"github.com/vchain-dev/trillian/crypto/keyspb"
 )
 
 const (

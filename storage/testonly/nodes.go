@@ -16,7 +16,7 @@
 package testonly
 
 import (
-	"github.com/google/trillian/storage"
+	"github.com/vchain-dev/trillian/storage"
 )
 
 // MustCreateNodeIDForTreeCoords creates a NodeID for the given position in the tree.

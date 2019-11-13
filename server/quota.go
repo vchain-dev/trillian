@@ -20,7 +20,7 @@ import (
 	"sync"
 
 	"github.com/golang/glog"
-	"github.com/google/trillian/quota"
+	"github.com/vchain-dev/trillian/quota"
 )
 
 const (

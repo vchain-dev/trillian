@@ -20,12 +20,12 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/google/trillian/util/clock"
+	"github.com/vchain-dev/trillian/util/clock"
 	"go.opencensus.io/trace"
 	"google.golang.org/grpc"
 )
 
-const traceSpanRoot = "github.com/google/trillian/monitoring.RPCStatsInterceptor"
+const traceSpanRoot = "github.com/vchain-dev/trillian/monitoring.RPCStatsInterceptor"
 
 // RPCStatsInterceptor provides a gRPC interceptor that records statistics about the RPCs passing through it.
 type RPCStatsInterceptor struct {

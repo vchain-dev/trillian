@@ -19,8 +19,8 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/google/trillian/monitoring"
-	"github.com/google/trillian/storage"
+	"github.com/vchain-dev/trillian/monitoring"
+	"github.com/vchain-dev/trillian/storage"
 )
 
 // NewStorageProviderFunc is the signature of a function which can be registered

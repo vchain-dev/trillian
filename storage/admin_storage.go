@@ -17,7 +17,7 @@ package storage
 import (
 	"context"
 
-	"github.com/google/trillian"
+	"github.com/vchain-dev/trillian"
 )
 
 // ReadOnlyAdminTX is a transaction capable only of read operations in the

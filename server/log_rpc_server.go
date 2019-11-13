@@ -19,15 +19,15 @@ import (
 	"fmt"
 
 	"github.com/golang/glog"
-	"github.com/google/trillian"
-	"github.com/google/trillian/extension"
-	"github.com/google/trillian/merkle"
-	"github.com/google/trillian/merkle/hashers"
-	"github.com/google/trillian/monitoring"
-	"github.com/google/trillian/storage"
-	"github.com/google/trillian/trees"
-	"github.com/google/trillian/types"
-	"github.com/google/trillian/util/clock"
+	"github.com/vchain-dev/trillian"
+	"github.com/vchain-dev/trillian/extension"
+	"github.com/vchain-dev/trillian/merkle"
+	"github.com/vchain-dev/trillian/merkle/hashers"
+	"github.com/vchain-dev/trillian/monitoring"
+	"github.com/vchain-dev/trillian/storage"
+	"github.com/vchain-dev/trillian/trees"
+	"github.com/vchain-dev/trillian/types"
+	"github.com/vchain-dev/trillian/util/clock"
 	"go.opencensus.io/trace"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
@@ -39,7 +39,7 @@ import (
 // Pass this as a fixed value to proof calculations. It's used as the max depth of the tree
 const (
 	proofMaxBitLen = 64
-	traceSpanRoot  = "github.com/google/trillian/server"
+	traceSpanRoot  = "github.com/vchain-dev/trillian/server"
 )
 
 var (

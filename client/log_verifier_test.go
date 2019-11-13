@@ -18,13 +18,13 @@ import (
 	"crypto"
 	"testing"
 
-	"github.com/google/trillian"
-	"github.com/google/trillian/crypto/keys/pem"
-	"github.com/google/trillian/merkle/rfc6962"
-	"github.com/google/trillian/testonly"
-	"github.com/google/trillian/types"
+	"github.com/vchain-dev/trillian"
+	"github.com/vchain-dev/trillian/crypto/keys/pem"
+	"github.com/vchain-dev/trillian/merkle/rfc6962"
+	"github.com/vchain-dev/trillian/testonly"
+	"github.com/vchain-dev/trillian/types"
 
-	tcrypto "github.com/google/trillian/crypto"
+	tcrypto "github.com/vchain-dev/trillian/crypto"
 )
 
 func TestVerifyRootErrors(t *testing.T) {

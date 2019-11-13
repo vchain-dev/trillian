@@ -19,7 +19,7 @@ import (
 	"context"
 	"sync"
 
-	"github.com/google/trillian/util/election2"
+	"github.com/vchain-dev/trillian/util/election2"
 )
 
 // Factory allows creating Election instances for testing.

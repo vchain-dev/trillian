@@ -20,10 +20,10 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/google/trillian/merkle/hashers"
-	"github.com/google/trillian/merkle/maphasher"
-	"github.com/google/trillian/storage"
-	"github.com/google/trillian/testonly"
+	"github.com/vchain-dev/trillian/merkle/hashers"
+	"github.com/vchain-dev/trillian/merkle/maphasher"
+	"github.com/vchain-dev/trillian/storage"
+	"github.com/vchain-dev/trillian/testonly"
 )
 
 const treeID = int64(0)

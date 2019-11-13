@@ -19,8 +19,8 @@ import (
 	"encoding/base64"
 	"testing"
 
-	"github.com/google/trillian/merkle/hashers"
-	"github.com/google/trillian/testonly"
+	"github.com/vchain-dev/trillian/merkle/hashers"
+	"github.com/vchain-dev/trillian/testonly"
 )
 
 const (

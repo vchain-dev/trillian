@@ -19,10 +19,10 @@ import (
 	"context"
 	"testing"
 
-	"github.com/google/trillian"
-	"github.com/google/trillian/storage/testdb"
-	"github.com/google/trillian/storage/testonly"
-	"github.com/google/trillian/testonly/integration"
+	"github.com/vchain-dev/trillian"
+	"github.com/vchain-dev/trillian/storage/testdb"
+	"github.com/vchain-dev/trillian/storage/testonly"
+	"github.com/vchain-dev/trillian/testonly/integration"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 )

@@ -20,16 +20,16 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/google/trillian/merkle/compact"
-	"github.com/google/trillian/merkle/maphasher"
-	"github.com/google/trillian/merkle/rfc6962"
-	"github.com/google/trillian/storage"
-	"github.com/google/trillian/storage/storagepb"
+	"github.com/vchain-dev/trillian/merkle/compact"
+	"github.com/vchain-dev/trillian/merkle/maphasher"
+	"github.com/vchain-dev/trillian/merkle/rfc6962"
+	"github.com/vchain-dev/trillian/storage"
+	"github.com/vchain-dev/trillian/storage/storagepb"
 
 	"github.com/golang/mock/gomock"
 	"github.com/kylelemons/godebug/pretty"
 
-	stestonly "github.com/google/trillian/storage/testonly"
+	stestonly "github.com/vchain-dev/trillian/storage/testonly"
 )
 
 var (

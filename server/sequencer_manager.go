@@ -22,13 +22,13 @@ import (
 
 	"github.com/golang/glog"
 	"github.com/golang/protobuf/ptypes"
-	"github.com/google/trillian"
-	"github.com/google/trillian/extension"
-	"github.com/google/trillian/log"
-	"github.com/google/trillian/merkle/hashers"
-	"github.com/google/trillian/trees"
+	"github.com/vchain-dev/trillian"
+	"github.com/vchain-dev/trillian/extension"
+	"github.com/vchain-dev/trillian/log"
+	"github.com/vchain-dev/trillian/merkle/hashers"
+	"github.com/vchain-dev/trillian/trees"
 
-	tcrypto "github.com/google/trillian/crypto"
+	tcrypto "github.com/vchain-dev/trillian/crypto"
 )
 
 // SequencerManager provides sequencing operations for a collection of Logs.

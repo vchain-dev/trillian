@@ -20,10 +20,10 @@ import (
 	"math/big"
 
 	"github.com/golang/glog"
-	"github.com/google/trillian/merkle"
-	"github.com/google/trillian/merkle/hashers"
-	"github.com/google/trillian/storage"
-	"github.com/google/trillian/storage/storagepb"
+	"github.com/vchain-dev/trillian/merkle"
+	"github.com/vchain-dev/trillian/merkle/hashers"
+	"github.com/vchain-dev/trillian/storage"
+	"github.com/vchain-dev/trillian/storage/storagepb"
 )
 
 // NewMapSubtreeCache creates and returns a SubtreeCache appropriate for use with a map

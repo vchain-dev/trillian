@@ -19,16 +19,16 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/google/trillian"
-	"github.com/google/trillian/crypto/keys/der"
-	"github.com/google/trillian/merkle"
-	"github.com/google/trillian/merkle/hashers"
-	"github.com/google/trillian/trees"
-	"github.com/google/trillian/types"
+	"github.com/vchain-dev/trillian"
+	"github.com/vchain-dev/trillian/crypto/keys/der"
+	"github.com/vchain-dev/trillian/merkle"
+	"github.com/vchain-dev/trillian/merkle/hashers"
+	"github.com/vchain-dev/trillian/trees"
+	"github.com/vchain-dev/trillian/types"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 
-	tcrypto "github.com/google/trillian/crypto"
+	tcrypto "github.com/vchain-dev/trillian/crypto"
 )
 
 // MapVerifier allows verification of output from Trillian Maps; it is safe

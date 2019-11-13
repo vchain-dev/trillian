@@ -20,7 +20,7 @@ import (
 	"database/sql"
 	"errors"
 
-	"github.com/google/trillian/quota"
+	"github.com/vchain-dev/trillian/quota"
 )
 
 const (

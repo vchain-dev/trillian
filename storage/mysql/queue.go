@@ -25,7 +25,7 @@ import (
 
 	"github.com/golang/glog"
 	"github.com/golang/protobuf/ptypes"
-	"github.com/google/trillian"
+	"github.com/vchain-dev/trillian"
 )
 
 const (

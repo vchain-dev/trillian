@@ -21,15 +21,15 @@ import (
 	"testing"
 	"time"
 
-	"github.com/google/trillian"
-	"github.com/google/trillian/merkle/rfc6962"
-	"github.com/google/trillian/testonly/integration"
-	"github.com/google/trillian/types"
+	"github.com/vchain-dev/trillian"
+	"github.com/vchain-dev/trillian/merkle/rfc6962"
+	"github.com/vchain-dev/trillian/testonly/integration"
+	"github.com/vchain-dev/trillian/types"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 
-	"github.com/google/trillian/storage/testdb"
-	stestonly "github.com/google/trillian/storage/testonly"
+	"github.com/vchain-dev/trillian/storage/testdb"
+	stestonly "github.com/vchain-dev/trillian/storage/testonly"
 )
 
 func TestAddGetLeaf(t *testing.T) {
