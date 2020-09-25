@@ -14,7 +14,7 @@ require (
 	github.com/emicklei/proto v1.6.13 // indirect
 	github.com/emirpasic/gods v1.12.0 // indirect
 	github.com/fatih/color v1.7.0 // indirect
-	github.com/fullstorydev/grpcurl v1.3.1 // indirect
+	github.com/fullstorydev/grpcurl v1.29.1 // indirect
 	github.com/gliderlabs/ssh v0.1.4 // indirect
 	github.com/go-critic/go-critic v0.3.4 // indirect
 	github.com/go-sql-driver/mysql v1.4.1
